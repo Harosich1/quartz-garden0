@@ -1,3 +1,72 @@
+/* style.css */
 @use "./base.scss";
 
-// put your custom CSS here!
+:root[saved-theme="dark"], html[saved-theme="dark"], [saved-theme="light"], html[saved-theme="light"] {
+  .container {
+    margin: 20px auto; /* Центрирование контейнера */
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Важно для очистки float внутри контейнера */
+    font-family: 'Playfair Display', sans-serif;
+    line-height: 1.6;
+  }
+
+  .image-wrapper, .image-wrapper-rounded {
+    /* Чтобы текст обтекал картинку, float её влево */
+    float: left;
+    margin-right: 6%; /* Отступ справа от картинки до текста */
+    margin-bottom: 10px; /* Отступ снизу от картинки до текста */
+    /* Максимальная ширина картинки для десктопа */
+    max-width: 300px;
+    height: auto; /* Сохраняем пропорции */
+  }
+
+  .image-wrapper img {
+    max-width: 100%; /* Картинка будет занимать 100% ширины своего родителя (.image-wrapper) */
+    height: auto;
+    display: block; /* Убирает лишние пробелы под изображением */
+    border: 20px solid transparent;
+    border-image: url('images/victorian-frame-bg.png') 3.4% round;
+  }
+
+  .image-wrapper-rounded img {
+    max-width: 100%; /* Картинка будет занимать 100% ширины своего родителя (.image-wrapper) */
+    height: auto;
+    display: block; /* Убирает лишние пробелы под изображением */
+    border: 20px solid transparent;
+    border-radius: 50%;
+  }
+
+  .text-content, .text-header {
+    /* Текст будет обтекать плавающий элемент */
+    text-align: justify; /* Для красивого выравнивания текста */
+  }
+
+  /* --- Адаптивность для телефона --- */
+  @media (max-width: 768px) {
+    .container {
+      margin: 10px; /* Меньшие отступы по краям на мобильных */
+      padding: 15px;
+    }
+
+    .image-wrapper {
+      /* На мобильных устройствах делаем картинку полноширинной */
+      float: none; /* Отменяем обтекание */
+      margin-right: 0;
+      margin-bottom: 20px; /* Увеличиваем отступ снизу, т.к. текст пойдет под ней */
+      max-width: 100%; /* Картинка занимает всю доступную ширину */
+      text-align: center; /* Центрируем картинку, если она меньше 100% */
+    }
+
+    .image-wrapper img {
+      width: 100%; /* Убедимся, что изображение растягивается на всю ширину image-wrapper */
+      max-width: 300px; /* Ограничиваем максимальный размер изображения даже на мобильных, чтобы оно не было слишком большим */
+      display: block;
+      margin: 0 auto; /* Центрируем изображение, если max-width меньше 100% */
+    }
+
+    .text-content, .text-header {
+      text-align: left; /* Можно вернуть выравнивание влево на мобильных */
+    }
+  }
+}
