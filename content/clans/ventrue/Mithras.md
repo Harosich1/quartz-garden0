@@ -4,7 +4,7 @@ title: Митра
 
 <div class="container">
     <div class="image-wrapper-rounded">
-        <img src="../../images/mithras.png">
+        <img src="../images/mithras.png">
     </div>
     <p class="text-header">
         <strong><em>"Снизошедший бог, светоносное лико"</em></strong> <br>

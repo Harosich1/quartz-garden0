@@ -4,7 +4,7 @@ title: Кэтрин
 
 <div class="container">
     <div class="image-wrapper-rounded">
-        <img src="../../images/katrin.png">
+        <img src="../images/katrin.png">
     </div>
     <p class="text-header">
         <strong><em>"Крайне грозная и целеустремленная женщина."</em></strong> <br>

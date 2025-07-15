@@ -4,7 +4,7 @@ title: Реджинальд Мур
 
 <div class="container">
     <div class="image-wrapper-rounded">
-        <img src="../../images/rejinald.png">
+        <img src="../images/rejinald.png">
     </div>
     <p class="text-header">
         <strong><em>"Академик, философ, демократ"</em></strong> <br><br>

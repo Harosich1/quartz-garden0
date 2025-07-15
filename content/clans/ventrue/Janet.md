@@ -4,7 +4,7 @@ title: Джанет Латимер
 
 <div class="container">
     <div class="image-wrapper-rounded">
-        <img src="../../images/janet.png">
+        <img src="../images/janet.png">
     </div>
 </div>
 

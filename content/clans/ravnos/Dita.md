@@ -4,7 +4,7 @@ title: Дита Клаудхэйр
 
 <div class="container">
     <div class="image-wrapper-rounded">
-        <img src="../../images/dita.png">
+        <img src="../images/dita.png">
     </div>
     <p class="text-header">
         <strong><em>"Влиятельная леди, управляющая культом Митры"<br> <br> 

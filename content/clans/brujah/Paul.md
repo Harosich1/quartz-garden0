@@ -4,7 +4,7 @@ title: Пол Бедуэлл
 
 <div class="container">
     <div class="image-wrapper-rounded">
-        <img src="../../images/paul.png">
+        <img src="../images/paul.png">
     </div>
     <p class="text-header">
         <strong><em>"Состояние: Вернулся после отсутствия"</em></strong> <br>

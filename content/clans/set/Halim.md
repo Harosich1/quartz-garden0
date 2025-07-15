@@ -4,7 +4,7 @@ title: Халим Бей
 
 <div class="container">
     <div class="image-wrapper-rounded">
-        <img src="../../images/halim.png">
+        <img src="../images/halim.png">
     </div>
     <p class="text-header">
         <strong><em>"Организатор культа Сета в Лондоне"<br> <br> 

@@ -4,7 +4,7 @@ title: Леди Анна Боуэсли
 
 <div class="container">
     <div class="image-wrapper-rounded">
-        <img src="../../images/anna-bously.png">
+        <img src="../images/anna-bously.png">
     </div>
     <p class="text-header">
         <strong><em>"Сенешаль и левая рука принца Лондона"</em></strong> <br>
